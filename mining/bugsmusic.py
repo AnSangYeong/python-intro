@@ -11,6 +11,7 @@ class Bugsmusic(object):
     dict = {}
     df = None
 
+
     def set_url(self, detail):
         # detail 은 chartdate=20210605&charthour=11 부분으로 바뀌는 값
         self.url = requests.get(f'{self.url}{detail}').text
