@@ -41,7 +41,7 @@ class Bmi(object):
                 bmi = Bmi(height, weight) #bmi를 인스턴스(객체) 라고 한다.
                 print(bmi.get_bmi())
             else:
-                print('네뮤 다시 설정')
+                print(' 다시 설정')
                 continue
 
 
